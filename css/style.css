@@ -5,6 +5,14 @@ h1,h2,h3,h4,h5,h6{
     color: rgb(192, 206, 214);
 }
 
+html{
+    background-color: #e2e5e8;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -88,6 +96,307 @@ nav strong{
     text-align: center;
 }
 
+/* Historia*/
+
+.bg-his{
+    background-color: #ff4f6ff2;
+}
+
+.previewHis{
+    margin-top: 50px;
+    position: relative;
+}
+
+.previewHis article{
+    position: absolute;
+    display: inline-block;
+    padding: 30px;
+}
+
+.previewHis article p{
+    padding: 0;
+    width: 90%;
+    margin-left: 60px;
+    margin-bottom: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+.previewHis article h2{
+    padding: 30px;
+    color: #373737;
+    font-size: 35px;
+}
+
+#NO{
+    font-size: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.previewHis img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    padding: 30px;
+    display:inline ;
+}
+
+#linkYe{
+    display: inline;
+}
+
+#TCD{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#YeFan{
+    margin: 200px;
+    margin-left: 400px;
+    text-align: center;
+    background-color: #f2274c;
+    width: 600px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#YeFan a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    color: white;
+}
+
+/*Contacto*/
+
+.bg-cont{
+    background-color:  rgba(255, 255, 255, 0.812);
+}
+
+
+
+.contactos {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background-color: #49494983;
+    position: relative;
+    border-radius: 12px;
+    margin-top: 100px;
+    height: auto;
+    padding: 5px;
+}
+
+
+.contacto-content h2,
+.contacto-content p {
+    color: rgb(41, 40, 40);
+    text-align: start;
+}
+
+.contacto-content h2 {
+    font-size: 24px;
+}
+
+.contacto-content form{
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+    color: #222222;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.contacto-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    height: 400px;
+}
+
+.contacto-map {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: #49494983;
+    position: relative;
+    border-radius: 12px;
+    margin-top: 100px;
+    overflow: hidden;
+    height: 300px;
+    padding: 5px;
+}
+
+.contacto-map iframe{
+    height: 200px;
+    width: 450px;
+    padding: 2px;
+}
+
+.contacto-redes {
+    display: flex;
+    flex-direction: column;
+    width: auto ;
+    background-color: #49494983;
+    position: relative;
+    border-radius: 12px;
+    margin-top: 100px;
+    overflow: hidden;
+    height: 300px;
+    padding: 5px;
+}
+
+
+.contacto-redes ul li{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: "Helvetica", cursive;
+    font-weight: 500;
+    color: #222222;
+    font-size: 15px;
+}
+
+.contacto-content ul li span{
+    font-weight: 600;
+}
+
+/*Discografia*/
+
+.disc{
+    width: 40%;
+    position: absolute;
+    height: auto;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left:10px;
+}
+
+
+.disc article div{
+    display: inline;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.disc article div iframe{
+    padding: 1px;
+}
+.discParr{
+    margin-top:60px ;
+    position: relative;
+    width: 40%;
+    margin-left: 600px;
+}
+
+.discParr article div{
+    display: inline;
+    position: absolute;
+    padding: 30px;
+    width: auto;
+
+}
+
+.discografia {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    height: auto;
+    
+}
+
+
+
+.albums-content h2 {
+    font-size: 35px;
+    width: 300px ;
+    color: rgb(233, 233, 233);
+}
+
+.albums-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.albums-content p{
+    width: 300px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.discografia article{
+    border-radius: 12px;
+    height: auto;
+}
+
+.graduation{
+    background-color: #b25186;
+
+}
+
+.TCD{
+    background-color: #7e1b1b;
+}
+
+.Ye{
+    background-color:  #00193c;
+}
+
+.KSG{
+    background-color: #005edada ;
+}
+
+.Late-registration{
+    background-color: #353333;
+}
+
+#VulturesDisc{
+    background-color: #402b2b;
+}
+
+.MBDTF{
+    background-color:#e2193e ;
+}
+
+.TLOP{
+    background-color: #ff7e3d;
+}
+
+.Yeezus{
+    background-color: #6989c1;
+}
+
+.WTT{
+    background-color: #8e7f42;
+}
+
+.Donda{
+    background-color: rgb(45, 45, 45);
+}
+
+.Heartbreak{
+    background-color: #829393;
+}
+
+.Jesus-is-king{
+    background-color: blue;
+}
 
 
 /*Footer*/
