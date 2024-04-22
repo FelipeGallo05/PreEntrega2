@@ -348,6 +348,12 @@ nav strong{
     font-weight: 600;
 }
 
+@media (max-width: 768px){
+    .contactos {
+        justify-content: center;
+    }
+}
+
 /*Discografia*/
 
 .bg-disc{
@@ -477,6 +483,16 @@ nav strong{
 
 .Jesus-is-king{
     background-color: blue;
+}
+
+@media (max-width: 768px){
+    .albums-content p{
+        margin: 5px;
+    }
+    .albums-content{
+        gap: 0;
+    }
+    
 }
 
 /*Miscelaneos*/
